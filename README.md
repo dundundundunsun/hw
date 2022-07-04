@@ -7,4 +7,4 @@ homework from lilong
 ``go run main.go``
 ## step3: 
 - 浏览器访问``http://localhost:8080/read``接口，可获取yaml文件内容
-- 浏览器访问``http://localhost:8080/parse``接口，解析yaml文件，可以对其中出现的错误进行识别
+- 浏览器访问``http://localhost:8080/parse``接口，解析yaml文件并展示
