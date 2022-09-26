@@ -11,7 +11,7 @@ import (
 
 func main() {
 	r := gin.Default()
-	//tag test
+	//flow test
 	// 仅读取文件
 	r.GET("/read", func(c *gin.Context) {
 		cont, err := ioutil.ReadFile("./permission_schema.yml")
